@@ -6,7 +6,9 @@ class Task {
     private String taskDesc;
     private String duedate;
     private Taskstatus status;
+    public Task(){
 
+    }
     @Override
     public String toString() {
         return "Task{" +

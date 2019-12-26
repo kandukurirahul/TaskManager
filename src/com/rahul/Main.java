@@ -66,7 +66,7 @@ public class Main {
                     totaltasks--;
                     break;
                 case 6://listByStatus
-                    System.out.println("enter status to search");
+                    System.out.println("enter status to search(CREATED/IN_PROGRESS/DONE)");
                     Taskstatus str=Taskstatus.valueOf(br.readLine());
                     ArrayList<Task> statuslist=taskManager.listByStatus(str);
                     for(Task i:statuslist){

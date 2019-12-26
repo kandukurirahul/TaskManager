@@ -2,17 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6177eca6-e0ab-48b6-8390-ba778e4b0039" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rahul/TaskManager.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/rahul/Taskstatus.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tasks/com/rahul/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/com/rahul/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tasks/com/rahul/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/com/rahul/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/com/rahul/TaskM.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/com/rahul/Taskstatus.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/com/rahul/Taskstatus.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/rahul/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahul/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/rahul/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahul/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahul/TaskM.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rahul/TaskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahul/TaskManager.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Enum" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -43,6 +39,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/jackson-databind-2.10.1.jar!/" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -106,38 +106,42 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="437" y="101" width="548" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1577170872616">
+    <state x="437" y="101" width="548" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1577333140594">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="437" y="101" width="548" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1577170872616" />
+    <state x="437" y="101" width="548" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1577333140594" />
     <state x="343" y="27" width="727" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577168700954">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="343" y="27" width="727" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1299.741@67.27.1299.741" timestamp="1577168700954" />
-    <state width="1253" height="209" key="GridCell.Tab.0.bottom" timestamp="1577190518553">
+    <state x="500" y="155" width="424" height="484" key="FileChooserDialogImpl" timestamp="1577332536676">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="209" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1577190518553" />
-    <state width="1253" height="209" key="GridCell.Tab.0.center" timestamp="1577190518552">
+    <state x="500" y="155" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1577332536676" />
+    <state width="1253" height="166" key="GridCell.Tab.0.bottom" timestamp="1577335269572">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="209" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1577190518552" />
-    <state width="1253" height="209" key="GridCell.Tab.0.left" timestamp="1577190518552">
+    <state width="1253" height="166" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1577335269572" />
+    <state width="1253" height="166" key="GridCell.Tab.0.center" timestamp="1577335269571">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="209" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1577190518552" />
-    <state width="1253" height="209" key="GridCell.Tab.0.right" timestamp="1577190518553">
+    <state width="1253" height="166" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1577335269571" />
+    <state width="1253" height="166" key="GridCell.Tab.0.left" timestamp="1577335269571">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="209" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1577190518553" />
-    <state x="205" y="31" key="SettingsEditor" timestamp="1577178818631">
+    <state width="1253" height="166" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1577335269571" />
+    <state width="1253" height="166" key="GridCell.Tab.0.right" timestamp="1577335269572">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="205" y="31" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1577178818631" />
-    <state x="372" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1577085474897">
+    <state width="1253" height="166" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1577335269572" />
+    <state x="205" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1577332550843">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="372" y="225" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1577085474897" />
+    <state x="205" y="27" width="1024" height="741" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1577332550843" />
+    <state x="372" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1577330538876">
+      <screen x="67" y="27" width="1299" height="741" />
+    </state>
+    <state x="372" y="225" key="com.intellij.ide.util.TipDialog/67.27.1299.741@67.27.1299.741" timestamp="1577330538876" />
     <state x="460" y="269" width="714" height="301" key="org.intellij.images.editor.actions.BackgroundImageDialog" timestamp="1577178804674">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
