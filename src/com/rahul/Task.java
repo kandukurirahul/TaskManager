@@ -1,37 +1,41 @@
 package com.rahul;
 
-class Task {
-    private int taskid;
-    private String taskname;
+import java.util.Date;
+import java.text.SimpleDateFormat;
+
+class Task implements Comparable<Task>{
+    private int taskId;
+    private String taskName;
     private String taskDesc;
-    private String duedate;
+    private Date dueDate;
     private Taskstatus status;
     public Task(){
 
     }
     @Override
     public String toString() {
+        SimpleDateFormat time=new SimpleDateFormat("dd/MM/yyyy");
         return "Task{" +
-                "taskid=" + taskid +
-                ", taskname='" + taskname + '\'' +
+                "taskid=" + taskId +
+                ", taskname='" + taskName + '\'' +
                 ", taskDesc='" + taskDesc + '\'' +
-                ", duedate='" + duedate + '\'' +
+                ", duedate='" + time.format(dueDate) + '\'' +
                 ", status=" + status +
-                '}';
+                '}'+"\n";
     }
 
-    Task(int taskid,String task, String des, String td, Taskstatus status) {
-        this.taskid=taskid;
-        this.taskname = task;
+    Task(int taskId,String task, String des, Date td, Taskstatus status) {
+        this.taskId=taskId;
+        this.taskName = task;
         this.taskDesc = des;
-        this.duedate = td;
+        this.dueDate = td;
         this.status = status;
     }
-    public int getTaskid(){
-        return taskid;
+    public int getTaskId(){
+        return taskId;
     }
-    public void setTaskid(int taskid){
-        this.taskid=taskid;
+    public void setTaskId(int taskId){
+        this.taskId=taskId;
     }
     public Taskstatus getStatus() {
         return status;
@@ -41,12 +45,12 @@ class Task {
         this.status = status;
     }
 
-    public String getTaskname() {
-        return taskname;
+    public String getTaskName() {
+        return taskName;
     }
 
-    public void setTaskname(String tasknamename) {
-        this.taskname = taskname;
+    public void setTaskName(String taskName) {
+        this.taskName = taskName;
     }
 
     public String getTaskDesc() {
@@ -57,11 +61,21 @@ class Task {
         this.taskDesc = taskDesc;
     }
 
-    public String getDuedate() {
-        return duedate;
+    public Date getDueDate() {
+        return dueDate;
     }
 
-    public void setDuedate(String duedate) {
-        this.duedate = duedate;
+    public void setDueDate(Date dueDate) {
+        this.dueDate = dueDate;
+    }
+
+    @Override
+    public int compareTo(Task task) {
+        if(this.getDueDate().compareTo(task.getDueDate())==0)
+            return 0;
+        else if(this.getDueDate().compareTo(task.getDueDate())<0)
+            return -1;
+        else
+            return 1;
     }
 }

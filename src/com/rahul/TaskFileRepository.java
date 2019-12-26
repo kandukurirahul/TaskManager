@@ -5,7 +5,11 @@ import com.fasterxml.jackson.databind.ObjectMapper;
 import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Date;
 
 public class TaskFileRepository implements TaskRepository{
     private static final String TASKS_JSON_FILE="/home/rahulp/Desktop/workspace/java/tasks.json";
@@ -40,11 +44,12 @@ public class TaskFileRepository implements TaskRepository{
     @Override
     public void add(Task task) {
         tasks.add(task);
+        //System.out.println(task);
         writeToFile(tasks);
     }
 
     @Override
-    public ArrayList<Task> displayidandname() {
+    public ArrayList<Task> displayIdandName() {
         return readFromFile();
     }
 
@@ -56,7 +61,7 @@ public class TaskFileRepository implements TaskRepository{
     @Override
     public Task search(int id) {
         for(Task str:tasks) {
-            if (str.getTaskid()==id) {
+            if (str.getTaskId()==id) {
                 return str;
             }
         }
@@ -64,13 +69,15 @@ public class TaskFileRepository implements TaskRepository{
     }
 
     @Override
-    public void delete(int del) {
+    public boolean delete(int del) {
         for(Task task:tasks){
-            if(task.getTaskid()==del){
+            if(task.getTaskId()==del){
                 tasks.remove(task);
                 writeToFile(tasks);
+                return true;
             }
         }
+        return false;
     }
 
     @Override
@@ -81,10 +88,41 @@ public class TaskFileRepository implements TaskRepository{
     @Override
     public void updateStatus(int taskid, Taskstatus newStatus) {
         for(Task str:tasks){
-            if(str.getTaskid()==taskid){
+            if(str.getTaskId()==taskid){
                 str.setStatus(newStatus);
+                writeToFile(tasks);
             }
         }
+    }
+    @Override
+    public int totalTask(){
+        return tasks.size();
+    }
+    @Override
+    public ArrayList<Task> getPendingTask(){
+        ArrayList<Task> pendingTaskList=new ArrayList<>();
+        for(Task str:tasks){
+            if(str.getStatus().equals(Taskstatus.valueOf("CREATED"))||str.getStatus().equals(Taskstatus.valueOf("IN_PROGRESS")))
+                pendingTaskList.add(str);
 
+        }
+        Collections.sort(pendingTaskList);
+        return pendingTaskList;
+    }
+    @Override
+    public ArrayList<Task> getTodayTask(){
+        ArrayList<Task> currentTask=new ArrayList<>();
+        Date date=new Date();
+        SimpleDateFormat simpleDateFormat=new SimpleDateFormat("dd/MM/yyyy");
+        String today=simpleDateFormat.format(date);
+        for(Task i:tasks){
+            try {
+                if(i.getDueDate().equals(simpleDateFormat.parse(today)))
+                    currentTask.add(i);
+            } catch (ParseException e) {
+                e.printStackTrace();
+            }
+        }
+        return currentTask;
     }
 }
