@@ -1,9 +1,10 @@
 package com.rahul;
 
+import java.sql.SQLException;
 import java.util.ArrayList;
 
 public class TaskManager {
-    TaskRepository repository=new TaskFileRepository();
+    TaskRepository repository=new DatabaseRepository();
     public void add(Task task){
         repository.add(task);
     }

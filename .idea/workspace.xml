@@ -3,14 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="6177eca6-e0ab-48b6-8390-ba778e4b0039" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tasks.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Tasks.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tasks/com/rahul/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/com/rahul/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/com/rahul/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/com/rahul/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Tasks/com/rahul/TaskFileRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/com/rahul/TaskFileRepository.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Tasks/com/rahul/TaskManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Tasks/com/rahul/TaskManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahul/InMemoryTaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahul/InMemoryTaskRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/rahul/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahul/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahul/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahul/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/rahul/TaskFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahul/TaskFileRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/rahul/TaskManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahul/TaskManager.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/rahul/TaskRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rahul/TaskRepository.java" afterDir="false" />
     </list>
@@ -43,10 +39,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/jackson-databind-2.10.1.jar!/" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/mysql-connector-java-8.0.17.jar!/" />
     <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -110,38 +106,38 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="437" y="101" width="548" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1577346065939">
+    <state x="437" y="101" width="548" height="592" key="#com.intellij.ide.util.MemberChooser" timestamp="1577365684971">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="437" y="101" width="548" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1577346065939" />
+    <state x="437" y="101" width="548" height="592" key="#com.intellij.ide.util.MemberChooser/67.27.1299.741@67.27.1299.741" timestamp="1577365684971" />
     <state x="343" y="27" width="727" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1577168700954">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="343" y="27" width="727" height="741" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/67.27.1299.741@67.27.1299.741" timestamp="1577168700954" />
-    <state x="500" y="155" width="424" height="484" key="FileChooserDialogImpl" timestamp="1577332536676">
+    <state x="500" y="155" width="424" height="484" key="FileChooserDialogImpl" timestamp="1577360544624">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="500" y="155" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1577332536676" />
-    <state width="1253" height="250" key="GridCell.Tab.0.bottom" timestamp="1577357672514">
+    <state x="500" y="155" width="424" height="484" key="FileChooserDialogImpl/67.27.1299.741@67.27.1299.741" timestamp="1577360544624" />
+    <state width="1253" height="304" key="GridCell.Tab.0.bottom" timestamp="1577445478621">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="250" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1577357672514" />
-    <state width="1253" height="250" key="GridCell.Tab.0.center" timestamp="1577357672514">
+    <state width="1253" height="304" key="GridCell.Tab.0.bottom/67.27.1299.741@67.27.1299.741" timestamp="1577445478621" />
+    <state width="1253" height="304" key="GridCell.Tab.0.center" timestamp="1577445478620">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="250" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1577357672514" />
-    <state width="1253" height="250" key="GridCell.Tab.0.left" timestamp="1577357672514">
+    <state width="1253" height="304" key="GridCell.Tab.0.center/67.27.1299.741@67.27.1299.741" timestamp="1577445478620" />
+    <state width="1253" height="304" key="GridCell.Tab.0.left" timestamp="1577445478620">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="250" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1577357672514" />
-    <state width="1253" height="250" key="GridCell.Tab.0.right" timestamp="1577357672514">
+    <state width="1253" height="304" key="GridCell.Tab.0.left/67.27.1299.741@67.27.1299.741" timestamp="1577445478620" />
+    <state width="1253" height="304" key="GridCell.Tab.0.right" timestamp="1577445478621">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state width="1253" height="250" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1577357672514" />
-    <state x="205" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1577332550843">
+    <state width="1253" height="304" key="GridCell.Tab.0.right/67.27.1299.741@67.27.1299.741" timestamp="1577445478621" />
+    <state x="205" y="27" width="1024" height="741" key="SettingsEditor" timestamp="1577360589193">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="205" y="27" width="1024" height="741" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1577332550843" />
+    <state x="205" y="27" width="1024" height="741" key="SettingsEditor/67.27.1299.741@67.27.1299.741" timestamp="1577360589193" />
     <state x="372" y="225" key="com.intellij.ide.util.TipDialog" timestamp="1577330538876">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
@@ -150,17 +146,17 @@
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="460" y="269" width="714" height="301" key="org.intellij.images.editor.actions.BackgroundImageDialog/67.27.1299.741@67.27.1299.741" timestamp="1577178804674" />
-    <state x="412" y="27" width="598" height="741" key="refactoring.ChangeSignatureDialog" timestamp="1577342932648">
+    <state x="412" y="27" width="598" height="741" key="refactoring.ChangeSignatureDialog" timestamp="1577430088836">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="412" y="27" width="598" height="741" key="refactoring.ChangeSignatureDialog/67.27.1299.741@67.27.1299.741" timestamp="1577342932648" />
+    <state x="412" y="27" width="598" height="741" key="refactoring.ChangeSignatureDialog/67.27.1299.741@67.27.1299.741" timestamp="1577430088836" />
     <state x="380" y="176" key="run.anything.popup" timestamp="1577153385777">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
     <state x="380" y="176" key="run.anything.popup/67.27.1299.741@67.27.1299.741" timestamp="1577153385777" />
-    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1577353483085">
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1577420216702">
       <screen x="67" y="27" width="1299" height="741" />
     </state>
-    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1577353483085" />
+    <state x="379" y="89" width="672" height="678" key="search.everywhere.popup/67.27.1299.741@67.27.1299.741" timestamp="1577420216702" />
   </component>
 </project>

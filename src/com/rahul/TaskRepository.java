@@ -1,5 +1,6 @@
 package com.rahul;
 
+import java.sql.SQLException;
 import java.util.ArrayList;
 
 public interface TaskRepository {
